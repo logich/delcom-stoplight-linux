@@ -1,0 +1,5 @@
+#add support delcom stoplight
+ACTION!="add|change", GOTO="delcom_end"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0fc5", ATTRS{idProduct}=="b080", GROUP="plugdev"
+
+LABEL="delcom_end"
