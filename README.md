@@ -17,4 +17,6 @@ You will need g++, libpthread-stub0-dev, libusb-1.0-dev, and libudev-dev package
 
 A udev rule file can be copied into /etc/udev/rules.d to allow users to run the program instead of root.
 
-There is also a perl pidgin plugin to change color based on availability
+There is also a perl pidgin plugin to change color based on availability.
+Drop the perl script into ~/.purple/plugins and restart pidgin. 
+Default exceutable location is /usr/bin/ and refresh time is 120 minutes.
